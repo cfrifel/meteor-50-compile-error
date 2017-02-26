@@ -12,5 +12,5 @@ If "meteor reset" is typed in to the command prompt, the compiler error in taskl
 
 Some guesses:  On Meteor's <a href="https://docs.meteor.com/commandline.html#meteorreset">command line documenation</a> page, meteor reset is said to put meteor in a fresh state.  Maybe it deletes some cached information about tasklist.js and causes the compiler error.  Currently testing if the error does not occur if Meteor is never resetted in another repo.
 
-The error shows up after doing either "meteor reset" or "meteor add accounts-ui accounts-password"...  This problem is beyond trial and error of the procedure, maybe i should just try and resinstall meteor.
+The error shows up after doing either "meteor reset" or "meteor add accounts-ui accounts-password"...  This problem is beyond trial and error of the procedure variations, maybe i should just try and resinstall meteor.
 
