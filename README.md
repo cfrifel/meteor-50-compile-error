@@ -5,7 +5,7 @@ Current state of Master branch:
 Just prior to importing accounts-ui and accounts-password.
 
 Current state Compiler Error branch:
-Same as master with SKYBLUE background color.
+At the addition of {{> loginButtons}} stage in the video.  Changed let to var in line 12 of tasklist.js to make the error go away.
 
 Problem Description:
 
