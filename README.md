@@ -9,7 +9,9 @@ At the addition of {{> loginButtons}} stage in the video.  Changed let to var in
 
 Problem Description:
 
-A compiler error shows up after doing either "meteor reset" or "meteor add accounts-ui accounts-password".  The error states that in tasklist.js, there is a missing semicolon in the line 12: "let name = event.target.name.value;"
+A compiler error shows up in line 12 when trying to run meteor.  The error states that in tasklist.js, there is a missing semicolon in the line 12: "let name = event.target.name.value;"
 
 Problem Solution:
-Change "let" to "var" in the problem line 12 in tasklist.js.  After getting it to run successfully, you can change it back to "let" and it will still run.  However, whenever you terminate and start up meteor again, line 12 has to use "var".
+
+Go to Control Panel > Default Programs, and click on "Associate a file type or protocol with a program".
+Then find .js, and change it to IntelliJ.
